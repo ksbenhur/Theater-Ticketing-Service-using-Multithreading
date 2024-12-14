@@ -1,0 +1,333 @@
+
+Thread simulation starts here:
+---------------------------------------------------------------------------------------
+Time 	SellerName	Activity			Response Time 	Turnaround Time
+---------------------------------------------------------------------------------------
+00:00 	M1 		Customer No M101 arrived
+00:00 	M1 		Serving Customer No M101	       0
+00:01 	L5 		Customer No L501 arrived
+00:01 	L5 		Serving Customer No L501	       0
+00:01 	L4 		Customer No L401 arrived
+00:01 	L4 		Serving Customer No L401	       0
+00:02 	M1 		Customer No M102 arrived
+00:02 	M1 		Customer No M101 assigned seat 5,0               2
+00:03 	M1 		Serving Customer No M102	       1
+00:03 	M2 		Customer No M201 arrived
+00:03 	M2 		Serving Customer No M201	       0
+00:04 	L2 		Customer No L201 arrived
+00:04 	L2 		Serving Customer No L201	       0
+00:05 	M1 		Customer No M103 arrived
+00:05 	L4 		Customer No L402 arrived
+00:05 	L1 		Customer No L101 arrived
+00:05 	L1 		Customer No L102 arrived
+00:05 	L1 		Serving Customer No L101	       0
+00:05 	L6 		Customer No L601 arrived
+00:05 	L6 		Serving Customer No L601	       0
+00:06 	L5 		Customer No L501 assigned seat 9,9               6
+00:07 	M1 		Customer No M104 arrived
+00:07 	M1 		Customer No M102 assigned seat 5,1               7
+00:07 	M2 		Customer No M201 assigned seat 5,2               7
+00:07 	M3 		Customer No M301 arrived
+00:07 	M3 		Serving Customer No M301	       0
+00:07 	L1 		Customer No L103 arrived
+00:07 	H1 		Customer No H101 arrived
+00:07 	H1 		Serving Customer No H101	       0
+00:08 	M1 		Serving Customer No M103	       3
+00:08 	H1 		Customer No H101 assigned seat 0,0               8
+00:08 	L1 		Customer No L104 arrived
+00:08 	L4 		Customer No L401 assigned seat 9,8               8
+00:09 	M3 		Customer No M301 assigned seat 5,3               9
+00:09 	M2 		Customer No M202 arrived
+00:09 	M2 		Serving Customer No M202	       0
+00:09 	L5 		Customer No L502 arrived
+00:09 	L5 		Serving Customer No L502	       0
+00:09 	L3 		Customer No L301 arrived
+00:09 	L3 		Serving Customer No L301	       0
+00:09 	L4 		Serving Customer No L402	       4
+00:10 	L1 		Customer No L101 assigned seat 9,7              10
+00:10 	H1 		Customer No H102 arrived
+00:10 	H1 		Serving Customer No H102	       0
+00:10 	L2 		Customer No L201 assigned seat 9,6              10
+00:10 	L6 		Customer No L601 assigned seat 9,5              10
+00:11 	L1 		Serving Customer No L102	       6
+00:11 	H1 		Customer No H102 assigned seat 0,1              11
+00:12 	M1 		Customer No M105 arrived
+00:12 	M1 		Customer No M103 assigned seat 5,4              12
+00:12 	L6 		Customer No L602 arrived
+00:12 	L6 		Serving Customer No L602	       0
+00:13 	L4 		Customer No L403 arrived
+00:13 	M2 		Customer No M202 assigned seat 5,5              13
+00:13 	L3 		Customer No L302 arrived
+00:13 	L3 		Customer No L303 arrived
+00:13 	L1 		Customer No L105 arrived
+00:13 	M1 		Serving Customer No M104	       6
+00:14 	L5 		Customer No L502 assigned seat 9,4              14
+00:15 	L5 		Customer No L503 arrived
+00:15 	L5 		Serving Customer No L503	       0
+00:16 	L6 		Customer No L603 arrived
+00:16 	L3 		Customer No L301 assigned seat 9,3              16
+00:16 	L4 		Customer No L402 assigned seat 9,2              16
+00:17 	L5 		Customer No L504 arrived
+00:17 	L3 		Serving Customer No L302	       4
+00:17 	L4 		Serving Customer No L403	       4
+00:17 	L1 		Customer No L102 assigned seat 9,1              17
+00:17 	M1 		Customer No M104 assigned seat 5,6              17
+00:17 	M2 		Customer No M203 arrived
+00:17 	M2 		Serving Customer No M203	       0
+00:18 	L5 		Customer No L505 arrived
+00:18 	L1 		Serving Customer No L103	      11
+00:18 	M1 		Serving Customer No M105	       6
+00:18 	M2 		Customer No M204 arrived
+00:19 	L5 		Customer No L503 assigned seat 9,0              19
+00:19 	L6 		Customer No L602 assigned seat 8,9              19
+00:19 	M2 		Customer No M203 assigned seat 5,7              19
+00:19 	M3 		Customer No M302 arrived
+00:19 	M3 		Serving Customer No M302	       0
+00:20 	L5 		Serving Customer No L504	       3
+00:20 	M2 		Serving Customer No M204	       2
+00:20 	L6 		Serving Customer No L603	       4
+00:21 	L3 		Customer No L302 assigned seat 8,8              21
+00:21 	M1 		Customer No M105 assigned seat 5,8              21
+00:21 	M3 		Customer No M303 arrived
+00:21 	M3 		Customer No M302 assigned seat 5,9              21
+00:22 	L3 		Customer No L304 arrived
+00:22 	L3 		Serving Customer No L303	       9
+00:22 	L1 		Customer No L103 assigned seat 8,7              22
+00:22 	M3 		Serving Customer No M303	       1
+00:22 	L4 		Customer No L403 assigned seat 8,6              22
+00:22 	L6 		Customer No L604 arrived
+00:23 	L1 		Serving Customer No L104	      15
+00:23 	L4 		Customer No L404 arrived
+00:23 	L4 		Serving Customer No L404	       0
+00:23 	L6 		Customer No L605 arrived
+00:23 	M1 		Customer No M106 arrived
+00:23 	M1 		Serving Customer No M106	       0
+00:23 	M2 		Customer No M204 assigned seat 6,0              23
+00:23 	H1 		Customer No H103 arrived
+00:23 	H1 		Serving Customer No H103	       0
+00:24 	L6 		Customer No L606 arrived
+00:24 	H1 		Customer No H104 arrived
+00:24 	L2 		Customer No L202 arrived
+00:24 	L2 		Serving Customer No L202	       0
+00:25 	L5 		Customer No L504 assigned seat 8,5              25
+00:25 	H1 		Customer No H103 assigned seat 0,2              25
+00:25 	M3 		Customer No M303 assigned seat 6,1              25
+00:26 	L5 		Serving Customer No L505	       8
+00:26 	M1 		Customer No M106 assigned seat 6,2              26
+00:26 	L6 		Customer No L607 arrived
+00:26 	L6 		Customer No L603 assigned seat 8,4              26
+00:26 	M3 		Customer No M304 arrived
+00:26 	M3 		Serving Customer No M304	       0
+00:26 	H1 		Serving Customer No H104	       2
+00:27 	L6 		Serving Customer No L604	       5
+00:27 	M1 		Customer No M107 arrived
+00:27 	M1 		Serving Customer No M107	       0
+00:28 	L1 		Customer No L104 assigned seat 8,3              28
+00:28 	L2 		Customer No L203 arrived
+00:28 	L2 		Customer No L204 arrived
+00:28 	H1 		Customer No H104 assigned seat 0,3              28
+00:28 	L3 		Customer No L303 assigned seat 8,2              28
+00:29 	L1 		Serving Customer No L105	      16
+00:29 	M3 		Customer No M304 assigned seat 6,3              29
+00:29 	L3 		Serving Customer No L304	       7
+00:29 	L2 		Customer No L202 assigned seat 8,1              29
+00:29 	L4 		Customer No L405 arrived
+00:29 	L4 		Customer No L404 assigned seat 8,0              29
+00:30 	L2 		Customer No L205 arrived
+00:30 	L2 		Serving Customer No L203	       2
+00:30 	L4 		Serving Customer No L405	       1
+00:31 	M1 		Customer No M107 assigned seat 6,4              31
+00:31 	L1 		Customer No L106 arrived
+00:32 	L1 		Customer No L107 arrived
+00:32 	H1 		Customer No H105 arrived
+00:32 	H1 		Serving Customer No H105	       0
+00:32 	M3 		Customer No M305 arrived
+00:32 	M3 		Serving Customer No M305	       0
+00:32 	L6 		Customer No L604 assigned seat 7,9              32
+00:33 	M2 		Customer No M205 arrived
+00:33 	M2 		Serving Customer No M205	       0
+00:33 	H1 		Customer No H105 assigned seat 0,4              33
+00:33 	M3 		Customer No M306 arrived
+00:33 	L5 		Customer No L505 assigned seat 7,8              33
+00:33 	L6 		Serving Customer No L605	      10
+00:34 	L4 		Customer No L406 arrived
+00:34 	L4 		Customer No L405 assigned seat 7,7              34
+00:34 	L5 		Customer No L506 arrived
+00:34 	L5 		Serving Customer No L506	       0
+00:35 	L4 		Serving Customer No L406	       1
+00:35 	L5 		Customer No L507 arrived
+00:35 	L2 		Customer No L203 assigned seat 7,6              35
+00:35 	L3 		Customer No L304 assigned seat 7,5              35
+00:36 	L4 		Customer No L407 arrived
+00:36 	L1 		Customer No L108 arrived
+00:36 	L1 		Customer No L105 assigned seat 7,4              36
+00:36 	M2 		Customer No M205 assigned seat 6,5              36
+00:36 	L2 		Serving Customer No L204	       8
+00:36 	M3 		Customer No M305 assigned seat 6,6              36
+00:37 	L1 		Customer No L109 arrived
+00:37 	L1 		Serving Customer No L106	       6
+00:37 	M3 		Customer No M307 arrived
+00:37 	M3 		Serving Customer No M306	       4
+00:38 	H1 		Customer No H106 arrived
+00:38 	H1 		Customer No H107 arrived
+00:38 	H1 		Serving Customer No H106	       0
+00:38 	L6 		Customer No L608 arrived
+00:39 	L4 		Customer No L406 assigned seat 7,3              39
+00:39 	M2 		Customer No M206 arrived
+00:39 	M2 		Serving Customer No M206	       0
+00:39 	H1 		Customer No H106 assigned seat 0,5              39
+00:39 	M3 		Customer No M308 arrived
+00:39 	M3 		Customer No M306 assigned seat 6,7              39
+00:40 	M2 		Customer No M207 arrived
+00:40 	L4 		Serving Customer No L407	       4
+00:40 	M3 		Serving Customer No M307	       3
+00:40 	M1 		Customer No M108 arrived
+00:40 	M1 		Serving Customer No M108	       0
+00:40 	L5 		Customer No L506 assigned seat 7,2              40
+00:40 	L6 		Customer No L605 assigned seat 7,1              40
+00:40 	H1 		Serving Customer No H107	       2
+00:41 	H1 		Customer No H107 assigned seat 0,6              41
+00:41 	L2 		Customer No L206 arrived
+00:41 	L6 		Serving Customer No L606	      17
+00:41 	L5 		Serving Customer No L507	       6
+00:41 	L3 		Customer No L305 arrived
+00:41 	L3 		Serving Customer No L305	       0
+00:42 	L2 		Customer No L204 assigned seat 7,0              42
+00:43 	M1 		Customer No M108 assigned seat 6,8              43
+00:43 	M2 		Customer No M206 assigned seat 6,9              43
+00:43 	L2 		Customer No L207 arrived
+00:43 	L2 		Serving Customer No L205	      13
+00:44 	M2 		Serving Customer No M207	       4
+00:44 	L5 		Customer No L508 arrived
+00:44 	L3 		Customer No L306 arrived
+00:44 	L1 		Customer No L106 assigned seat 4,9              44
+00:44 	M3 		Customer No M307 assigned seat 4,0              44
+00:45 	L5 		Customer No L509 arrived
+00:45 	L1 		Serving Customer No L107	      13
+00:45 	M3 		Serving Customer No M308	       6
+00:45 	L4 		Customer No L408 arrived
+00:45 	L4 		Customer No L407 assigned seat 4,8              45
+00:46 	L3 		Customer No L307 arrived
+00:46 	L3 		Customer No L305 assigned seat 4,7              46
+00:46 	L4 		Serving Customer No L408	       1
+00:46 	M2 		Customer No M207 assigned seat 4,1              46
+00:47 	M3 		Customer No M308 assigned seat 4,2              47
+00:47 	L5 		Customer No L507 assigned seat 4,6              47
+00:47 	L3 		Serving Customer No L306	       3
+00:48 	L5 		Serving Customer No L508	       4
+00:48 	L3 		Customer No L308 arrived
+00:48 	L3 		Customer No L309 arrived
+00:48 	L6 		Customer No L609 arrived
+00:48 	L6 		Customer No L606 assigned seat 4,5              48
+00:49 	L6 		Serving Customer No L607	      23
+00:49 	H1 		Customer No H108 arrived
+00:49 	H1 		Customer No H109 arrived
+00:49 	H1 		Serving Customer No H108	       0
+00:49 	M2 		Customer No M208 arrived
+00:49 	M2 		Serving Customer No M208	       0
+00:49 	M1 		Customer No M109 arrived
+00:49 	M1 		Serving Customer No M109	       0
+00:49 	L2 		Customer No L205 assigned seat 4,4              49
+00:49 	M3 		Customer No M309 arrived
+00:49 	M3 		Serving Customer No M309	       0
+00:50 	L2 		Customer No L208 arrived
+00:50 	L2 		Serving Customer No L206	       9
+00:50 	L4 		Customer No L408 assigned seat 4,3              50
+00:50 	H1 		Customer No H108 assigned seat 0,7              50
+00:50 	M3 		Customer No M310 arrived
+00:51 	L1 		Customer No L107 assigned seat 3,9              51
+00:51 	M1 		Customer No M109 assigned seat 3,0              51
+00:51 	L5 		Customer No L510 arrived
+00:51 	H1 		Serving Customer No H109	       2
+00:52 	M1 		Customer No M110 arrived
+00:52 	M1 		Serving Customer No M110	       0
+00:52 	M3 		Customer No M309 assigned seat 3,1              52
+00:52 	L1 		Serving Customer No L108	      16
+00:52 	H1 		Customer No H109 assigned seat 0,8              52
+00:52 	M2 		Customer No M208 assigned seat 3,2              52
+00:53 	L2 		Customer No L209 arrived
+00:53 	L3 		Customer No L306 assigned seat 3,8              53
+00:53 	M3 		Serving Customer No M310	       3
+00:53 	H1 		Customer No H110 arrived
+00:53 	H1 		Serving Customer No H110	       0
+00:54 	M1 		Customer No M110 assigned seat 3,3              54
+00:54 	L3 		Serving Customer No L307	       8
+00:54 	L1 		Customer No L110 arrived
+00:54 	L5 		Customer No L508 assigned seat 3,7              54
+00:55 	L5 		Serving Customer No L509	      10
+00:55 	M2 		Customer No M209 arrived
+00:55 	M2 		Serving Customer No M209	       0
+00:55 	H1 		Customer No H110 assigned seat 0,9              55
+00:55 	L4 		Customer No L409 arrived
+00:55 	L4 		Serving Customer No L409	       0
+00:55 	M3 		Customer No M310 assigned seat 3,4              55
+00:55 	L6 		Customer No L607 assigned seat 3,6              55
+00:56 	L2 		Customer No L210 arrived
+00:56 	L2 		Customer No L206 assigned seat 3,5              56
+00:56 	L6 		Serving Customer No L608	      18
+00:56 	M2 		Customer No M210 arrived
+00:57 	M2 		Customer No M209 assigned seat 2,0              57
+00:57 	L6 		Customer No L610 arrived
+00:57 	L3 		Customer No L310 arrived
+00:57 	L2 		Serving Customer No L207	      14
+00:58 	M2 		Serving Customer No M210	       2
+00:58 	L4 		Customer No L410 arrived
+00:59 	L5 		Customer No L509 assigned seat 2,9              59
+00:59 	L3 		Customer No L307 assigned seat 2,8              59
+00:59 	L1 		Customer No L108 assigned seat 2,7              59
+00:60 	L2 		Ticket Sale Closed. Customer No L207 Leaves
+00:60 	L2 		Ticket Sale Closed. Customer No L208 Leaves
+00:60 	L2 		Ticket Sale Closed. Customer No L209 Leaves
+00:60 	L5 		Ticket Sale Closed. Customer No L510 Leaves
+00:60 	L3 		Ticket Sale Closed. Customer No L308 Leaves
+00:60 	L6 		Ticket Sale Closed. Customer No L608 Leaves
+00:60 	L6 		Ticket Sale Closed. Customer No L609 Leaves
+00:60 	L6 		Ticket Sale Closed. Customer No L610 Leaves
+00:60 	L3 		Ticket Sale Closed. Customer No L309 Leaves
+00:60 	L3 		Ticket Sale Closed. Customer No L310 Leaves
+00:60 	L1 		Ticket Sale Closed. Customer No L109 Leaves
+00:60 	L1 		Ticket Sale Closed. Customer No L110 Leaves
+00:60 	M2 		Ticket Sale Closed. Customer No M210 Leaves
+00:60 	L2 		Ticket Sale Closed. Customer No L210 Leaves
+00:60 	L4 		Ticket Sale Closed. Customer No L409 Leaves
+00:60 	L4 		Ticket Sale Closed. Customer No L410 Leaves
+
+Thread simulation Ended
+
+
+
+Final Concert Seat Chart
+****************************
+
+ H101	 H102	 H103	 H104	 H105	 H106	 H107	 H108	 H109	 H110
+    -	    -	    -	    -	    -	    -	    -	    -	    -	    -
+ M209	    -	    -	    -	    -	    -	    -	 L108	 L307	 L509
+ M109	 M309	 M208	 M110	 M310	 L206	 L607	 L508	 L306	 L107
+ M307	 M207	 M308	 L408	 L205	 L606	 L507	 L305	 L407	 L106
+ M101	 M102	 M201	 M301	 M103	 M202	 M104	 M203	 M105	 M302
+ M204	 M303	 M106	 M304	 M107	 M205	 M305	 M306	 M108	 M206
+ L204	 L605	 L506	 L406	 L105	 L304	 L203	 L405	 L505	 L604
+ L404	 L202	 L303	 L104	 L603	 L504	 L403	 L103	 L302	 L602
+ L503	 L102	 L402	 L301	 L502	 L601	 L201	 L101	 L401	 L501
+
+
+*****************************************
+Multi-threaded Ticket Sellers
+Input N = 10
+*****************************************
+
+ ---------------------------------------------------------
+|    | No of Customers | GotSeat  | Returned | Throughput|
+ ---------------------------------------------------------
+|  H |              10 |       10 |        0 | 0.17      |
+|  M |              30 |       29 |        1 | 0.48      |
+|  L |              60 |       45 |       15 | 0.75      |
+ --------------------------------------------------------
+
+ -----------------------------------------------
+|      | Avg response Time | Avg turnaround time|
+ ------------------------------------------------
+|   H  | 0.600000          | 34.20 		|
+|   L  | 4.716667          | 25.27 		|
+|   M  | 1.366667          | 30.57 		|
+ ------------------------------------------------
